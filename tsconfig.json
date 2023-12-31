@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "module": "NodeNext",
+    "moduleResolution": "node",
+    "baseUrl": "src",
+    "outDir": "dist",
+    "sourceMap": true,
+    "noImplicitAny": true
+  },
+  "include": ["src/**/*"] 
+}
+
+// module: Specifies the module system for the generated JavaScript code. In this case, it's set to "NodeNext". This likely refers to CommonJS modules with some Node.js-specific features.
+// moduleResolution: Defines how module imports are resolved. "node" indicates that Node.js-style module resolution should be used.
+// baseUrl: Specifies the base directory used to resolve non-relative module names. In this case, it's set to "src", meaning that TypeScript will consider modules starting from the src directory.
+// outDir: Specifies the output directory for compiled TypeScript files. In this example, it's set to "dist". After running the TypeScript compiler (tsc), the compiled JavaScript files will be placed in the dist directory.
+// sourceMap: When set to true, this option generates source map files (*.map) alongside the compiled JavaScript files. Source maps allow you to debug TypeScript code directly in the original TypeScript source files.
+// noImplicitAny: When set to true, TypeScript will flag an error for variables that are implicitly of type any. This helps enforce stronger type checking.
